@@ -22,7 +22,7 @@ st.set_page_config(page_title="Isaac Mungai Chatbot", page_icon="🤖", layout="
 
 # Sidebar for poster and party leadership positions
 with st.sidebar:
-    st.image("poster.jpg", caption="Isaac Mungai Campaign Poster")
+    st.image("poster.png", caption="Isaac Mungai Campaign Poster")
     st.title("O.K.A")
     st.title("Isaac Mungai")
     st.title("For SCIT Representative")
@@ -86,4 +86,4 @@ if st.button("Submit"):
         st.warning("Please enter a question before submitting.")
 
 # Display the poster below the chatbot section
-st.image("poster.jpg", caption="Isaac Mungai Campaign Poster", use_container_width=True)
+st.image("poster.png", caption="Isaac Mungai Campaign Poster", use_container_width=True)
